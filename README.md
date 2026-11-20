@@ -35,6 +35,11 @@ npm run dev
 Open http://localhost:5173. Frontend loads synthetic data from the API when available, and includes an offline fixture fallback. To run tests: `npm test`; to build: `npm run build`.
 
 ## Design rationale
+### Inspiration
+
+The idea behind this project was inspired by how symptoms are investigated in the human body. The most noticeable symptom is not always the underlying cause of a problem. Understanding it often requires looking at earlier signs, their timing, and how different events might be connected.
+
+I wanted to explore whether a similar approach could improve vehicle diagnostic investigations. Rather than simply displaying critical alerts, my goal was to design an interface that helps technicians understand what happened before and after an alert, while preserving important diagnostic context even after an issue has been resolved.
 
 The key design choice separates **historical severity** (red Critical) from **current resolution state** (green check). The priority list and timeline have different sorting semantics: urgency versus chronology. The technician starts with what currently needs attention, then explores what happened before and after. Temporal proximity is a cue for review, not proof of causation.
 
