@@ -1,0 +1,19 @@
+{
+  "session": {"vehicle":"DEMO VEHICLE 01", "started":"09:58", "driveStarted":"10:01", "ended":"10:24", "date":"2026-11-20"},
+  "alerts": [
+    {"id":"performance","title":"System Performance Reduced","code":"DEMO-P003","severity":"critical","status":"active","time":"10:15","minutes":17,"stage":"During drive","description":"A performance restriction was recorded. Investigate this event and relevant preceding signals.","related":["voltage","communication"]},
+    {"id":"voltage","title":"Low Battery Voltage","code":"DEMO-P001","severity":"critical","status":"resolved","time":"10:04","resolvedAt":"10:21","minutes":6,"stage":"Early drive","description":"Battery voltage dropped below the example threshold. This alert has been resolved but remains in the event history.","related":["communication","performance"]},
+    {"id":"communication","title":"Sensor Communication Lost","code":"DEMO-P002","severity":"warning","status":"active","time":"10:09","minutes":11,"stage":"During drive","description":"A communication interruption was logged after the voltage decline.","related":["voltage","performance"]},
+    {"id":"temperature","title":"Temperature Increasing","code":"DEMO-P004","severity":"info","status":"historical","time":"10:12","minutes":14,"stage":"During drive","description":"An informational temperature trend was recorded.","related":[]}
+  ],
+  "signals": [
+    {"time":"09:58","voltage":12.5,"temperature":42},
+    {"time":"10:01","voltage":12.3,"temperature":45},
+    {"time":"10:04","voltage":10.8,"temperature":48},
+    {"time":"10:09","voltage":10.9,"temperature":53},
+    {"time":"10:12","voltage":11.2,"temperature":60},
+    {"time":"10:15","voltage":11.0,"temperature":62},
+    {"time":"10:21","voltage":12.4,"temperature":55},
+    {"time":"10:24","voltage":12.5,"temperature":50}
+  ]
+}
