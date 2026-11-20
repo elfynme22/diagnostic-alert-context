@@ -4,11 +4,9 @@
 
 [Explore the Interactive Prototype](https://diagnostic-alert-context-6xl6.vercel.app)
 
-An independent automotive diagnostic UI concept built with React and TypeScript, featuring priority-first alerts, event timelines, and diagnostic investigation views.
+An independent automotive diagnostic UI prototype inspired by Tesla Service Mode. Built with React and TypeScript, it explores priority-first alerts, historical event context, and interactive diagnostic investigation workflows using synthetic vehicle data.
 
-**Note:** This prototype uses synthetic vehicle data and is not affiliated with Tesla.
-
-An **independent, Tesla Service Mode–inspired** UI prototype for prioritizing vehicle diagnostic alerts and preserving the timeline of potential related events. It is **not affiliated with Tesla**, does not use Tesla APIs, and operates on **synthetic data only**.
+**Disclaimer:** This project is not affiliated with Tesla and does not use Tesla APIs or real vehicle data.
 
 ## What the concept explores
 
