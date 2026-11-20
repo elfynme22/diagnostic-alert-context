@@ -44,10 +44,3 @@ The key design choice separates **historical severity** (red Critical) from **cu
 
 This is a portfolio proof of concept, not a diagnostic or repair tool. The synthetic dataset, example thresholds and signal visualization are illustrative. The navigation sidebar only illustrates placement within an automotive service workflow. Nothing is deployed to a vehicle. Current implementation does not validate actual Tesla UI compatibility, test vehicle hardware, or analyze genuine fault causality.
 
-## Suggested portfolio summary (use after personally reviewing and validating the implementation)
-
-> Designed an independent automotive diagnostic UI concept featuring severity-first alert prioritization, a chronological event timeline, resolution-state indicators, and a React/TypeScript investigation view. Developed a Node.js/Express mock API and UI tests using AI-assisted coding, then reviewed and refined the implementation.
-
-## Learning
-
-See `LEARNING_GUIDE_TR.md` for a walkthrough of the implementation, code ownership and interview preparation. See `APPLICATION_TEXT_EN.md` for proposed CV and interview language.
