@@ -1,5 +1,5 @@
 import { useEffect, useMemo, useState } from 'react';
-import { Activity, AlertTriangle, ArrowLeft, Check, ChevronRight, CircleAlert, Clock3, Gauge, Info, RotateCcw, Wrench } from 'lucide-react';
+import { Activity, AlertTriangle, ArrowLeft, Check, ChevronRight, CircleAlert,  Gauge, Info, RotateCcw, Wrench } from 'lucide-react';
 import { demo, relatedAlerts, sortAlerts } from './data/demo';
 import type { DiagnosticAlert, DiagnosticData } from './types';
 import './styles/main.css';
