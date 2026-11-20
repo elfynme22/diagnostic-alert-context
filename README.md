@@ -24,15 +24,48 @@ An independent automotive diagnostic UI prototype inspired by Tesla Service Mode
 - Vitest/React Testing Library for frontend interaction tests; Node test runner for backend tests
 
 ## Run locally
+### Requirements
+- Node.js 20+
+- npm
 
-Requires Node.js 20+ and npm.
+### Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/elfynme22/diagnostic-alert-context.git
+cd diagnostic-alert-context
+```
+
+Install dependencies:
 
 ```bash
 npm run install:all
+```
+
+Start the application:
+
+```bash
 npm run dev
 ```
 
-Open http://localhost:5173. Frontend loads synthetic data from the API when available, and includes an offline fixture fallback. To run tests: `npm test`; to build: `npm run build`.
+Open http://localhost:5173 in your browser.
+
+The frontend uses synthetic diagnostic data from the example API when available, with an offline fallback for demonstration purposes.
+
+### Testing
+
+Run tests:
+
+```bash
+npm test
+```
+
+Build for production:
+
+```bash
+npm run build
+```
 
 ## Design rationale
 ### Inspiration
